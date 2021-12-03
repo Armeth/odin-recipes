@@ -14,7 +14,7 @@
         margin: 5% auto;
         text-align: center;
         color: rgb(197, 180, 21);
-        font-family: serif;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         background-color: rgba(223, 6, 6, 0.356);
         font-size: 50px;
     }
@@ -43,7 +43,7 @@
         list-style-type: georgian;
         color: rgb(197, 180, 21);
         text-decoration: none;
-        font-family: cursive;
+        font-family: cursive, sans-serif;
         font-size: 40px;
         margin: 30px auto;
         width: 50%;
