@@ -1,60 +1,96 @@
-    #body {
-        background-color: black;
-        background-image: radial-gradient(white, rgba(255, 255, 255, .2) 2px, transparent 40px), radial-gradient(white, rgba(255, 255, 255, .15) 1px, transparent 30px), radial-gradient(white, rgba(255, 255, 255, .1) 2px, transparent 40px), radial-gradient(rgba(255, 255, 255, .4), rgba(255, 255, 255, .1) 2px, transparent 30px);
-        background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
-        background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
-    }
-    
-    div {
-        text-align: center;
-    }
-    
-    h1 {
-        width: 750px;
-        margin: 5% auto;
-        text-align: center;
-        color: rgb(197, 180, 21);
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        background-color: rgba(223, 6, 6, 0.356);
-        font-size: 50px;
-    }
-    
-    h1 span {
-        background-color: rgba(52, 44, 167, 0.89);
-    }
-    
-    h2 {
-        text-decoration: underline;
-        text-align: center;
-        font-family: cursive;
-        font-size: 50px;
-        color: rgb(197, 180, 21)
-    }
-    
-    .p1 {
-        text-align: center;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-weight: bold;
-        font-size: 20px;
-    }
-    
-    ul {
-        text-align: center;
-        list-style-type: georgian;
-        color: rgb(197, 180, 21);
-        text-decoration: none;
-        font-family: cursive, sans-serif;
-        font-size: 40px;
-        margin: 30px auto;
-        width: 50%;
-        font-weight: bold;
-    }
-    
-    a {
-        text-decoration: none;
-        color: rgb(228, 29, 29);
-    }
-    /* ul li {
+#body {
+    background-color: black;
+    background-image: radial-gradient(white, rgba(255, 255, 255, .2) 2px, transparent 40px), radial-gradient(white, rgba(255, 255, 255, .15) 1px, transparent 30px), radial-gradient(white, rgba(255, 255, 255, .1) 2px, transparent 40px), radial-gradient(rgba(255, 255, 255, .4), rgba(255, 255, 255, .1) 2px, transparent 30px);
+    background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+    background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+}
+
+div {
+    text-align: center;
+}
+
+
+/* div ul {
+        text-align: left;
+        position: absolute; */
+
+
+/* } */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    color: rgb(197, 180, 21);
+}
+
+h1 {
+    width: 750px;
+    margin: 5% auto;
+    text-align: center;
+    color: rgb(197, 180, 21);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgba(223, 6, 6, 0.356);
+    font-size: 50px;
+}
+
+h1 span {
+    background-color: rgba(52, 44, 167, 0.89);
+}
+
+h2 {
+    text-decoration: underline;
+    text-align: center;
+    font-family: cursive;
+    font-size: 50px;
+    color: rgb(197, 180, 21)
+}
+
+.p1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(228, 29, 29);
+}
+
+ul {
+    text-align: center;
+    list-style-type: georgian;
+    color: rgb(197, 180, 21);
+    text-decoration: none;
+    font-family: cursive, sans-serif;
+    font-size: 40px;
+    margin: 30px auto;
+    width: 50%;
+    font-weight: bold;
+}
+
+.inglist {
+    text-align: left;
+    text-decoration: underline;
+    list-style-type: circle;
+    color: rgb(197, 180, 21);
+    font-family: cursive, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.steps {
+    text-align: left;
+    color: rgb(228, 29, 29);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(228, 29, 29);
+}
+
+
+/* ul li {
         font-family: cursive;
         font-size: 40px;
         margin: 30px auto;
@@ -62,7 +98,7 @@
         font-weight: bold;
         text-decoration: none;
     } */
-    
-    ul li a:hover {
-        background: #0e1cd883;
-    }
+
+ul li a:hover {
+    background: #0e1cd883;
+}
